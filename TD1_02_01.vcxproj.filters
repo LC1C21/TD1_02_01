@@ -14,11 +14,25 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ヘッダーファイル">
+      <UniqueIdentifier>{91b2c09d-1250-4f6b-bc20-480d002424fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPPファイル">
+      <UniqueIdentifier>{0761430d-7b29-4965-8318-cfe21114e167}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CPPファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>CPPファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>CPPファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +116,15 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
