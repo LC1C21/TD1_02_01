@@ -399,60 +399,6 @@ void Boss::TakeDamage(int damage)
 	damageTimer = damageDuration;
 }
 
-
-// 攻撃処理
-void Boss::UpdateAttack()
-{
-	if (!isAttacking)
-	{
-		return;
-	}
-
-	attackTimer++;
-
-	switch (attackType)
-	{
-	case ATTACK_BEAM:
-		// ビームの処理
-		
-		break;
-
-	case ATTACK_BALL:
-		// 球の処理
-		break;
-
-	case ATTACK_WAVE:
-		// 衝撃波の処理
-		break;
-
-	default:
-		break;
-	}
-}
-
-// 攻撃描画
-void Boss::DrawAttack()
-{
-	switch (attackType)
-	{
-	case ATTACK_BEAM:
-		// ビームの描画
-		break;
-
-	case ATTACK_BALL:
-		// 球の描画
-		break;
-
-	case ATTACK_WAVE:
-		// 衝撃波の描画
-		break;
-
-	default:
-		break;
-	}
-}
-
-
 // ボスの描画
 void Boss::Draw()
 {

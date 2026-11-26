@@ -3,13 +3,14 @@
 // ボスの攻撃種類
 enum AttackType
 {
+	ATTACK_RUSH,
 	ATTACK_NONE,
 	ATTACK_BEAM,
 	ATTACK_BALL,
 	ATTACK_WAVE
 };
 
-// ボスの行動状態
+// ボス待機状態
 enum BossState
 {
 	WAIT,           // 画面外で待機

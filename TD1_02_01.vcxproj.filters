@@ -34,6 +34,12 @@
     <ClCompile Include="main.cpp">
       <Filter>CPPファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Boss_Attack_Effect.cpp">
+      <Filter>CPPファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttack.cpp">
+      <Filter>CPPファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -124,6 +130,12 @@
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
     <ClInclude Include="Vector2.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Attack_Effect.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttack.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
