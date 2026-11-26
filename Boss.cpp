@@ -31,7 +31,6 @@ void Boss::Initialize()
 	// 現在のHPと同期
 	hp = maxHp;
 
-
 	// -------------------------
 	// ダメージの初期化
 	// -------------------------
@@ -176,7 +175,8 @@ void Boss::Update(float playerX, float playerY)
 		isBlink = (damageTimer / 3) % 2 == 0;
 
 		damageTimer--;
-	} else
+	}
+	else
 	{
 		shakeX = 0.0f;
 		shakeY = 0.0f;
@@ -289,7 +289,8 @@ void Boss::UpdateState()
 			moveTime = 0.0f;
 
 			state = IDLE;
-		} else
+		} 
+		else
 		{
 			// EaseOutCubic
 			float t = 1.0f - powf(1.0f - easingTimer, 3.0f);
@@ -352,7 +353,8 @@ void Boss::UpdateState()
 			endY = -300.0f;
 
 			state = EXIT;
-		} else
+		} 
+		else
 		{
 			float t = easingTimer * easingTimer;
 			bossY = startY + (endY - startY) * t;
@@ -371,7 +373,8 @@ void Boss::UpdateState()
 
 			// 行動終了
 			isStarted = false;
-		} else
+		}
+		else
 		{
 			float t = easingTimer * easingTimer * easingTimer;
 			bossY = startY + (endY - startY) * t;
@@ -411,6 +414,7 @@ void Boss::UpdateAttack()
 	{
 	case ATTACK_BEAM:
 		// ビームの処理
+		
 		break;
 
 	case ATTACK_BALL:

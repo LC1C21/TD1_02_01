@@ -36,7 +36,7 @@ public:
 	// ボスを描画する
 	void Draw();
 
-	//　テストプレイ用の関数ですあとで消すよ
+	// テストプレイ用の関数ですあとで消すよ
 	void TakeDamage(int damage);
 
 private:
